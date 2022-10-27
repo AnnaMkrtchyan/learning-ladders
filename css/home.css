@@ -1,0 +1,300 @@
+/* welcome section */
+.welcome-section {
+    padding: 83px 0 86px;
+}
+.welcome-section .text-block {
+    max-width: 500px; 
+    width: 100%;
+}
+.welcome-section .subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #0063A2;
+}
+.welcome-section .title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+}
+.welcome-section .logos {
+    margin-top: 40px;
+}
+.welcome-section .logos .item {
+    width: 150px;
+    height: 120px;
+    border: 1px solid #EEEEEE;
+    border-radius: 12px;
+}
+.welcome-section .logos .item:first-child {
+    margin-right: 20px;
+}
+.welcome-section .img-block {
+    text-align: end;
+}
+.welcome-section .img-block .main-img {
+    border-radius: 10px 200px 10px 10px;
+}
+.welcome-section .img-block .left {
+    top: -33px;
+    left: 6px;
+}
+.welcome-section .img-block .right {
+    bottom: -30px;
+    right: -32px;
+    z-index: -1;
+}
+
+/* our mission section */
+.our-mission-section {
+    background-color: #ECF4F9;
+    padding: 75px 0;
+}
+.our-mission-section .text {
+    margin-bottom: 36px;
+}
+
+/* about us */
+.about-us-section {
+    padding: 100px 0;
+}
+.about-us-section .img-block .main-img {
+    border-radius: 10px 200px 10px 10px;
+}
+.about-us-section .img-block .left {
+    bottom: -30px;
+    left: -30px;
+    z-index: -1;
+}
+.about-us-section .item {
+    margin-bottom: 14px;
+}
+.about-us-section .item:last-child {
+    margin-bottom: 36px;
+}
+
+/* our programs section */
+.our-programs-section {
+    background: #ECF4F9;
+    padding: 100px 0;
+}
+.our-programs-section .section-title {
+    margin-bottom: 40px;
+}
+.program-card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px 16px;
+}
+.program-card .name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.program-card .card-header {
+    margin-bottom: 30px;
+}
+.program-card .card-header img {
+    margin-right: 20px;
+}
+.program-card .card-body p {
+    min-height: 108px;
+    height: 100%;
+    margin-bottom: 30px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.our-programs-section .btn-green {
+    margin-top: 46px;
+}
+.btn-outlined {
+    border: 2px solid #ECF4F9;
+    border-radius: 12px;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #09C08E;
+}
+.btn-outlined:hover {
+    color: #09C08E;
+}
+.btn:focus {
+    box-shadow: unset;
+}
+
+
+
+/* media queries */
+@media (max-width: 1400px) {
+    .welcome-section .title {
+        font-size: 46px;
+        line-height: 52px;
+    }
+    .welcome-section .img-block .left {
+        left: -30px;
+    }
+    .program-card .card-body p {
+        min-height: 135px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .welcome-section .title {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .welcome-section .img-block .right {
+        right: -17px;
+    }
+    .welcome-section .text-block {
+        max-width: 400px; 
+    }
+    .about-us-section .item:last-child {
+        margin-bottom: 22px;
+    }
+    .program-card .card-body p {
+        min-height: 120px;
+    }
+    .program-card .name {
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .welcome-section {
+        padding: 50px 0;
+    }
+    .welcome-section .subtitle {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .welcome-section .title {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .welcome-section .logos {
+        margin-top: 20px;
+    }
+    .welcome-section .logos .item {
+        height: 100px;
+    }
+    .welcome-section .logos .item img {
+        height: 60px;
+    }
+    .welcome-section .img-block .left,
+    .welcome-section .img-block .right {
+        width: 45px;
+    }
+    .welcome-section .img-block .left {
+        left: -17px;
+        top: -17px;
+    }
+    .welcome-section .img-block .right {
+        right: -17px;
+        bottom: -17px;
+    }
+
+    .our-mission-section,
+    .about-us-section,
+    .our-programs-section {
+        padding: 50px 0;
+    }
+
+    .about-us-section .item {
+        margin-bottom: 10px;
+    }
+    .about-us-section .img-block .left {
+        width: 45px;
+        bottom: -16px;
+        left: -16px;
+    }
+
+    .card-mt-30 {
+        margin-top: 30px;
+    }
+    .program-card .name {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .welcome-section .text-block {
+        max-width: unset;
+    }
+
+    .welcome-section .logos {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .about-us-section .row {
+        flex-direction: column-reverse;
+    }
+    .about-us-section .img-block .main-img {
+        margin-top: 30px;
+    }
+
+    .program-card .card-body p {
+        min-height: unset;
+    }
+
+    .mt-30,
+    .card-mt-30 {
+        margin-top: 20px;
+    }
+
+    .card-mb-20 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .welcome-section {
+        padding: 40px 0;
+    }
+    .welcome-section .subtitle {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .welcome-section .title{
+        margin-bottom: 16px !important;
+    }
+
+    .welcome-section .img-block {
+        text-align: center;
+    }
+    .welcome-section .img-block .main-img {
+        width: 90%;
+    }
+    .welcome-section .img-block .left {
+        left: 3px;
+        top: 0px;
+    }
+    .welcome-section .img-block .right {
+        right: 2px;
+        bottom: -17px;
+    }
+
+    .our-mission-section .text {
+        margin-bottom: 26px;
+    }
+    .about-us-section .item {
+        margin-bottom: 14px;
+    }
+
+    .about-us-section .img-block .left {
+        display: none;
+    }
+
+    .program-card .card-header,
+    .program-card .card-body p {
+        margin-bottom: 25px;
+    }
+}

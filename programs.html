@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs</title>
+    <link rel="icon" href="./img/window-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/programs.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="header-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                        <div class="d-flex justify-content-end">
+                            <div class="contact-item d-flex align-items-center">
+                                <img src="./img/icons/header-icons/location.svg" alt="location icon" />
+                                <p class="mb-0">33 Hudson St. 35 Hudson St. 160 Morgan St. Jersey City, NJ 07302</p>
+                            </div>
+                            <div class="contact-item d-flex align-items-center">
+                                <img src="./img/icons/header-icons/message.svg" alt="message icon" />
+                                <p class="mb-0">admissions@learningladdersnj.com</p>
+                            </div>
+                            <div class="contact-item d-flex align-items-center">
+                                <img src="./img/icons/header-icons/phone.svg" alt="phone icon" />
+                                <p class="mb-0">201 918 6643</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <div class="container justify-content-between">
+                    <a class="navbar-brand me-0" href="home.html">
+                        <img src="./img/header-logo.svg" alt="header logo" class="img-fluid"  />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="about-us.html">
+                                    About Us
+                                    <img src="./img/icons/arrow-bottom.svg" alt="arrow bottom" />
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="programs.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Programs
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Nursery</a></li>
+                                    <li><a class="dropdown-item" href="#">Primary</a></li>
+                                    <li><a class="dropdown-item" href="#">Elementary</a></li>
+                                    <li><a class="dropdown-item" href="#">LEAP</a></li>
+                                    <li><a class="dropdown-item" href="#">Summer Camp</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Academics
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">STEAM</a></li>
+                                    <li><a class="dropdown-item" href="#">International<br> Baccalaureate</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="admissions.html">
+                                    Admissions
+                                    <img src="./img/icons/arrow-bottom.svg" alt="arrow bottom" />
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Community
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Parent<br> Communication</a></li>
+                                    <li><a class="dropdown-item" href="#">Parent Involvement</a></li>
+                                    <li><a class="dropdown-item" href="#">Event</a></li>
+                                    <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact-us.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- tabs -->
+    <section class="programs-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12">
+                    <div class="d-flex align-items-start flex-column-tabs">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					    	<button class="nav-link active" id="v-pills-goldenberry-tab" data-bs-toggle="pill" data-bs-target="#v-pills-goldenberry" type="button" role="tab" aria-controls="v-pills-goldenberry" aria-selected="true">
+					    		Goldenberry-Strawberry
+					    	</button>
+					    	<button class="nav-link" id="v-pills-blueberry-tab" data-bs-toggle="pill" data-bs-target="#v-pills-blueberry" type="button" role="tab" aria-controls="v-pills-blueberry" aria-selected="false">
+					    		Blueberry-Gooseberry
+					    	</button>
+					    	<button class="nav-link" id="v-pills-prek2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-prek2" type="button" role="tab" aria-controls="v-pills-prek2" aria-selected="false">
+					    		Pre K2
+					    	</button>
+					    	<button class="nav-link" id="v-pills-prek3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-prek3" type="button" role="tab" aria-controls="v-pills-prek3" aria-selected="false">
+					    		Pre K3
+					    	</button>
+					    	<button class="nav-link" id="v-pills-prek4-tab" data-bs-toggle="pill" data-bs-target="#v-pills-prek4" type="button" role="tab" aria-controls="v-pills-prek4" aria-selected="false">
+					    		Pre K4
+					    	</button>
+					    	<button class="nav-link" id="v-pills-kindergarten-tab" data-bs-toggle="pill" data-bs-target="#v-pills-kindergarten" type="button" role="tab" aria-controls="v-pills-kindergarten" aria-selected="false">
+					    		Kindergarten and up
+					    	</button>
+					    	<button class="nav-link" id="v-pills-enrichment-tab" data-bs-toggle="pill" data-bs-target="#v-pills-enrichment" type="button" role="tab" aria-controls="v-pills-enrichment" aria-selected="false">
+					    		Enrichment Programs
+					    	</button>
+					    	<button class="nav-link" id="v-pills-summer-tab" data-bs-toggle="pill" data-bs-target="#v-pills-summer" type="button" role="tab" aria-controls="v-pills-summer" aria-selected="false">
+					    		Summer Camp
+					    	</button>
+					  	</div>
+                        <div class="tab-content" id="v-pills-tabContent">
+					    	<div class="tab-pane fade show active" id="v-pills-goldenberry" role="tabpanel" aria-labelledby="v-pills-goldenberry-tab" tabindex="0">
+						    	<h2 class="section-title text-black mb-4">2-12 Months</h2>
+						    	<p class="text-grey fs-18 fw-400 mb-0">
+						    		Your first experience in child care begins in this room. We seek to make it as positive and beneficial 
+                                    as possible. We are able to give children attention that greatly aid in their development with our low 
+                                    teacher to child ratio. Infants participate in art, music, and tummy time activities that stimulate their
+                                    brains.
+						    	</p>
+					    		<div class="info-block">
+					    			<h4 class="title text-black mb-3">Social/emotional development</h4>
+					    			<p class="text-grey fs-18 fw-400 mb-3">
+					    				In the first year of development children begin to develop socially. Learning Ladders provides 
+                                        infants with the opportunity to develop new relationships with their teachers. Some of the skills 
+                                        that you will see begin to develop during your child’s time in the infant room are:
+					    			</p>
+					    			<ul class="list-unstyled ps-2 m-0 text-grey fs-18">
+					    				<li>&#x2022; Recognize faces</li>
+					    				<li>&#x2022; Give smiles and laughs</li>
+					    				<li>&#x2022; Pay attention to own name</li>
+					    				<li>&#x2022; Become interested in other babies</li>
+					    				<li>&#x2022; Look at self in the mirror</li>
+					    				<li>&#x2022; Express different emotions</li>
+					    				<li>&#x2022; Respond when they are being spoken to</li>
+					    				<li>&#x2022; Give affection and love</li>
+					    				<li>&#x2022; Show preference to people that they know</li>
+					    				<li>&#x2022; Imitate actions</li>
+					    			</ul>
+					    		</div>
+					    		<div class="info-block">
+					    			<h4 class="title text-black mb-3">Physical Development</h4>
+					    			<p class="text-grey fs-18 fw-400 mb-0">
+					    				Between the ages of 2-12 months children develop rapidly. Their physical development is an area 
+                                        where this is extremely evident. Their gross motor skills are continuously developing. Gross Motor 
+                                        development involves the larger, stronger muscle groups of the body. In early childhood, it is the 
+                                        development of these muscles that enable a baby to hold his/her head up, sit, crawl and eventually 
+                                        walk. Infants also begin to develop fine motor skills. Fine motor refers to the movements we make 
+                                        with the small muscles of the hands. Children start to use their hands right at birth to explore 
+                                        their own bodies and the world around them. Their fine motor skills develop as their whole body 
+                                        starts to move and become more stable. At Learning Ladders we provide an environment where children 
+                                        are able to thrive and develop physically.
+					    			</p>
+					    		</div>
+					    		<div class="info-block">
+					    			<h4 class="title text-black mb-3">Mental Development</h4>
+					    			<p class="text-grey fs-18 fw-400 mb-3">
+					    				One area that begins and continues to develop during this age is your child’s communication skills. 
+                                        Communication includes any and all ways that a baby lets us know what they need and how they are 
+                                        feeling. That can be done with facial expression, body language, crying, eye contact or sounds. 
+                                        Some of the communication skills that are developed at Learning Ladders are:
+					    			</p>
+					    			<ul class="list-unstyled ps-2 m-0 text-grey fs-18">
+					    				<li>&#x2022; Tries to imitate sounds or facial movements (lip circle, sticking out tongue, etc.)</li>
+					    				<li>&#x2022; May say “mama” and/or “dada”</li>
+					    				<li>&#x2022; Shouts or vocalizes loudly to get attention</li>
+					    				<li>&#x2022; Babbling starts to sound like “real speech”</li>
+					    				<li>&#x2022; Plays Peek-a-boo</li>
+					    				<li>&#x2022; Repeats a syllable or sequence of sounds often</li>
+					    				<li>&#x2022; Uses smiling and crying to indicate how they are feeling</li>
+					    				<li>&#x2022; Shows affection for special and significant people in their life</li>
+					    			</ul>
+					    		</div>
+					    	</div>
+					    	<div class="tab-pane fade" id="v-pills-blueberry" role="tabpanel" aria-labelledby="v-pills-blueberry-tab" tabindex="0">BLUEBERRY</div>
+					    	<div class="tab-pane fade" id="v-pills-prek2" role="tabpanel" aria-labelledby="v-pills-prek2-tab" tabindex="0">PRE K2</div>
+					    	<div class="tab-pane fade" id="v-pills-prek3" role="tabpanel" aria-labelledby="v-pills-prek3-tab" tabindex="0">PRE K3</div>
+					    	<div class="tab-pane fade" id="v-pills-prek4" role="tabpanel" aria-labelledby="v-pills-prek4-tab" tabindex="0">PRE K4</div>
+					    	<div class="tab-pane fade" id="v-pills-kindergarten" role="tabpanel" aria-labelledby="v-pills-kindergarten-tab" tabindex="0">kindergarten</div>
+					    	<div class="tab-pane fade" id="v-pills-enrichment" role="tabpanel" aria-labelledby="v-pills-enrichment-tab" tabindex="0">enrichment</div>
+					    	<div class="tab-pane fade" id="v-pills-summer" role="tabpanel" aria-labelledby="v-pills-summer-tab" tabindex="0">Summer</div>
+					  	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- images section -->
+    <div class="images-section">
+        <div class="d-flex">
+            <div class="w-20">
+                <img src="./img/babies/1.png" alt="image" />
+            </div>
+            <div class="w-20">
+                <img src="./img/babies/2.png" alt="image" />
+            </div>
+            <div class="w-20">
+                <img src="./img/babies/3.png" alt="image" />
+            </div>
+            <div class="w-20 img-none-mobile">
+                <img src="./img/babies/4.png" alt="image" />
+            </div>
+            <div class="w-20 img-none-mobile">
+                <img src="./img/babies/5.png" alt="image" />
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12">
+                    <div class="footer-logo text-center">
+                        <img src="./img/footer/footer-logo.svg" alt="footer logo" />
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12">
+                    <div class="contact-block">
+                        <h6 class="title text-grey text-uppercase">Contact Details</h6>
+                        <div class="contact-block-flex">
+                            <div class="details-block">
+                                <div class="details d-flex mb-3">
+                                    <img src="./img/footer/location.svg" alt="" width="12" height="15" class="" />
+                                    <p class="text-grey fw-400 mb-0">33 Hudson St. 35 Hudson St. 160 Morgan St. Jersey City, NJ 07302</p>
+                                </div>
+                                <div class="details d-flex mb-3">
+                                    <img src="./img/footer/message.svg" alt="" width="13" height="12" class="" />
+                                    <p class="text-grey fw-400 mb-0">admissions@learningladdersnj.com</p>
+                                </div>
+                                <div class="details d-flex">
+                                    <img src="./img/footer/phone.svg" alt="" width="12" height="12" class="" />
+                                    <p class="text-grey fw-400 mb-0">201 918 6643</p>
+                                </div>
+                            </div>
+                            <div class="logos d-flex">
+                                <div class="item w-50 text-center">
+                                    <img src="./img/crest.svg" alt="" width="70" height="60" />
+                                </div>
+                                <div class="item w-50 text-center">
+                                    <img src="./img/world-school-logo.svg" alt="" width="60" height="60" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-8">
+                    <div>
+                        <h6 class="title text-grey text-uppercase">Programs</h6>
+                        <ul class="footer-menu programs-menu list-unstyled mb-0 p-0">
+                            <li>
+                                <a href="#">&#x2022; Curriculum</a>
+                            </li>
+                            <li>
+                                <a href="#">&#x2022; Goldenberry</a>
+                            </li>
+                            <li>
+                                <a href="#">&#x2022; Strawberry</a>
+                            </li>
+                            <li>
+                                <a href="#">&#x2022; Blueberry</a>
+                            </li>
+                            <li>
+                                <a href="#">&#x2022; Gooseberry</a>
+                            </li>
+                            <li>
+                                <a href="#">&#x2022; Pre K2</a>
+                            </li>
+                            <li>
+                                <a href="#">&#x2022; Pre K3</a>
+                            </li>
+                            <li>
+                                <a href="#">&#x2022; Pre K4</a>
+                            </li>
+                            <li>
+                                <a href="#">&#x2022; Kindergarten</a>
+                            </li>
+                            <li>
+                                <a href="#">&#x2022; Enrichment</a>
+                            </li>
+                            <li>
+                                <a href="#">&#x2022; Programs</a>
+                            </li>
+                            <li>
+                                <a href="#">&#x2022; Summer Camp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4">
+                    <div>
+                        <h6 class="title text-grey text-uppercase">Useful Links</h6>
+                        <ul class="footer-menu list-unstyled mb-0 p-0">
+                            <li>
+                                <a href="about-us.html">About us</a>
+                            </li>
+                            <li>
+                                <a href="admissions.html">Admission Process</a>
+                            </li>
+                            <li>
+                                <a href="admissions.html">Admission Forms</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="parents.html">Parent Involment</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12">
+                    <div class="footer-copyright d-flex justify-content-between align-items-center">
+                        <p class="text-grey fw-400 text-uppercase mb-0">Copyright 2022. Learning Ladders. All rights reserved.</p>
+                        <a href="#">
+                            <img src="./img/footer/facebook.svg" alt="facebook" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- fixed -->
+    <div class="fixed-block">
+        <a href="#" class="item location-item d-flex flex-column align-items-center justify-content-center mb-1 text-decoration-none">
+            <img src="./img/fixed/location.svg" alt="location" class="mb-3" />
+            <p class="text-white mb-0">Campus</p>
+        </a>
+        <a href="#" class="item calendar-item d-flex flex-column align-items-center justify-content-center mb-1 text-decoration-none">
+            <img src="./img/fixed/calendar.svg" alt="calendar" class="mb-3" />
+            <p class="text-white mb-0">Schedule a tour</p>
+        </a>
+        <a href="#" class="item contact-item d-flex flex-column align-items-center justify-content-center text-decoration-none">
+            <img src="./img/fixed/contact.svg" alt="contact" class="mb-3" />
+            <p class="text-white mb-0">Contact us</p>
+        </a>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>

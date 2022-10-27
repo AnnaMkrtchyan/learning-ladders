@@ -1,0 +1,45 @@
+/* parent involvement section */
+.parent-involvement-section {
+    padding: 47px 0;
+}
+.parent-involvement-section img {
+    margin-top: 20px;
+}
+
+/* testimonials section */
+.testimonials-section {
+    padding: 50px 0 80px;
+}
+.feedback-block {
+    border: 1px solid #ECF4F9;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.feedback-block img {
+    margin-right: 4px;
+}
+.feedback-block .feedback-text,
+.feedback-block .feedback-title {
+    line-height: 26px;
+}
+.feedback-block .feedback-text{
+    margin: 12px 0 10px;
+}
+
+/* media queries */
+@media (max-width: 992px) {
+    .parent-involvement-section {
+        padding: 47px 0 25px;
+    }
+    .testimonials-section {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .feedback-block .feedback-text, 
+    .feedback-block .feedback-title {
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,106 @@
+.programs-section {
+    padding: 50px 0 100px;
+}
+
+/* tabs */
+#v-pills-tab {
+    margin-right: 80px;
+}
+.nav-pills .nav-link {
+    background-color: #ECF4F9;
+    border-radius: 0;
+    width: 370px;
+    padding: 20px 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    text-align: start;
+    margin-bottom: 2px;
+}
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link {
+    background-color: #0063A2;
+}
+.nav-link:first-child {
+    border-radius: 12px 12px 0 0;
+}
+.nav-link:last-child {
+    border-radius: 0 0 12px 12px;
+}
+
+.tab-content .info-block {
+    margin-top: 50px;
+}
+.tab-content .info-block .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+/* media queries */
+@media (max-width: 1400px) {
+    .nav-pills .nav-link {
+        padding: 17px 20px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #v-pills-tab {
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav-pills .nav-link {
+        width: 320px;
+    }
+    #v-pills-tab {
+        margin-right: 45px;
+    }
+    .tab-content .info-block .title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .programs-section {
+        padding: 50px 0;
+    }
+    .flex-column-tabs {
+        flex-direction: column;
+    }
+    #v-pills-tab {
+        max-width: 992px;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        margin-right: 0;
+        flex-direction: unset !important;
+        flex-wrap: unset !important;
+        margin-bottom: 30px;
+    }
+    #v-pills-tab::-webkit-scrollbar {
+        display: none;
+    }
+    .nav-pills .nav-link {
+        padding: 14px 20px;
+        font-size: 20px;
+        line-height: 24px;
+        margin-right: 2px;
+        margin-bottom: 0;
+    }
+    .nav-link:first-child {
+        border-radius: 12px 0 0 12px;
+    }
+    .nav-link:last-child {
+        border-radius: 0 12px 12px 0;
+    }
+    .tab-content .info-block {
+        margin-top: 30px;
+    }
+    .tab-content .info-block .title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}

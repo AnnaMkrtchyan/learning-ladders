@@ -1,0 +1,234 @@
+/* welcome section */
+.welcome-section {
+    background-color: #ECF4F9;
+    padding: 84px 0;
+}
+.welcome-section .subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #0063A2;
+}
+.welcome-section .page-title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+}
+.welcome-section .text-block {
+    margin-top: 80px;
+}
+.welcome-section .text-block .text {
+    max-width: 357px;
+    width: 100%;
+}
+.welcome-section .btn-green {
+    margin-top: 36px;
+}
+
+.director-speech-block {
+    background-color: #FFFFFF;
+    padding: 35px;
+    margin-right: 25px;
+}
+.director-speech-block .speech-icon {
+    top: -16px;
+    right: 35px;
+}
+.director-speech-block .dots {
+    right: -30px;
+    bottom: -30px;
+}
+
+/* mission section */
+.mission-section {
+    padding: 100px 0;
+}
+.mission-section .text-block {
+    max-width: 585px;
+    width: 100%;
+}
+.mission-section .btn-green {
+    margin-top: 36px;
+}
+.mission-section .main-img {
+    border-radius: 10px 200px 10px 10px;
+}
+.mission-section .dots {
+    bottom: -32px;
+    right: -32px;
+    z-index: -1;
+}
+
+/* glance section */
+.glance-section {
+    background-color: #ECF4F9;
+    padding: 100px 0;
+}
+.glance-section .main-img {
+    border-radius: 10px 200px 10px 10px;
+}
+.glance-section .text-block {
+    max-width: 585px;
+    width: 100%;
+}
+
+/* we offer section */
+.we-offer-section {
+    padding: 100px 0 74px;
+}
+.we-offer-section .section-title {
+    margin-bottom: 40px;
+}
+.we-offer-section .item {
+    margin-bottom: 14px;
+}
+
+/* team section */
+.team-section {
+    background-color: #ECF4F9;
+    padding: 100px 0;
+}
+.team-section .text-block {
+    max-width: 585px;
+    width: 100%;
+}
+.team-section .btn-green {
+    margin-top: 36px;
+}
+.team-section .main-img {
+    border-radius: 10px 200px 10px 10px;
+}
+
+/* careers */
+.careers-section {
+    padding: 100px 0;
+}
+.careers-section .section-title {
+    margin-bottom: 40px;
+}
+.careers-section .position-block {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 12px;
+    padding: 30px 24px 20px;
+    margin-bottom: 28px;
+}
+.careers-section .position-block:last-child {
+    margin-bottom: 0;
+}
+
+.careers-section .position-block .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+.careers-section .position-block ul li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #5A5C6A;
+}
+
+.accordion-button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    text-decoration-line: underline;
+    color: #09C08E !important;
+    padding: 0;
+    box-shadow: unset;
+    margin-bottom: 10px;
+}
+.accordion-button:not(.collapsed) {
+    color: unset;
+    background-color: unset;
+    box-shadow: unset;
+}
+.accordion-button:focus {
+    box-shadow: unset;
+}
+.accordion-button::after {
+    display: none;
+}
+.accordion-button::before {
+    content: "";
+    width: 40px;
+    height: 25px;
+    background-image: url('../img/about-us/open.svg');
+    background-repeat: no-repeat;
+    transition: all .2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::before {
+    background-image: url('../img/about-us/close.svg');
+
+}
+/* media queries */
+@media (max-width: 1400px) {
+    .welcome-section .page-title {
+        font-size: 46px;
+        line-height: 52px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .welcome-section .page-title {
+        font-size: 40px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 992px) {
+    .welcome-section .text-block {
+        margin-top: 0px;
+    }
+    .welcome-section .text-block .text {
+        max-width: unset;
+    }
+    .welcome-section .page-title {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .director-speech-block {
+        margin: 30px 0 0;
+    }
+    .welcome-section,
+    .mission-section,
+    .glance-section,
+    .team-section,
+    .careers-section {
+        padding: 50px 0;
+    }
+    .we-offer-section {
+        padding: 50px 0 40px;
+    }
+    .careers-section .position-block .title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .careers-section .position-block ul li {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .glance-section .row {
+        flex-direction: column-reverse;
+    }
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .welcome-section .page-title {
+        margin-bottom: 16px !important;
+    }
+    .director-speech-block .dots,
+    .mission-section .dots {
+        display: none;
+    }
+}
